@@ -16,11 +16,11 @@ export default {
                 sans: ['Figtree', ...defaultTheme.fontFamily.sans],
             },
             colors: {
-                'clr-60': '#ffff',
-                'clr-30': '#545454',
-                'clr-10': '#343434',
+                'clr-60': '#ff9cf3',
+                'clr-30': '#ffff',
+                'clr-10': '#7a006c',
                 'counter-clr-60': '#343434',
-                'counter-clr-30': '#ffff',
+                'counter-clr-30': '#343434',
                 'counter-clr-10': '#ffff'
             }
         },

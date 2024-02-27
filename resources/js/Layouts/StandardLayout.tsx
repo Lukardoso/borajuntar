@@ -2,7 +2,7 @@ import { ReactNode } from "react";
 export default function StandardLayout({children}: {children: ReactNode}) {
     return (
         <>
-            <div className="bg-clr-60 text-counter-clr-60">
+            <div className="bg-gradient-to-br from-clr-60 to-40% text-counter-clr-60">
                 <div id="navbar" className="min-h-fit flex flex-wrap justify-between p-4 bg-clr-30 text-counter-clr-30">
                     <div>
                         LOGO
