@@ -16,7 +16,7 @@ export default {
                 sans: ['Figtree', ...defaultTheme.fontFamily.sans],
             },
             colors: {
-                'clr-60': '#ff9cf3',
+                'clr-60': '#fcccfb',
                 'clr-30': '#ffff',
                 'clr-10': '#7a006c',
                 'counter-clr-60': '#343434',
