@@ -4,11 +4,14 @@ export default function Event(
     return (
         <>
             <div className="w-full sm:w-fit">
-                <img src={eventImg} alt="event-picture" className="w-full sm:w-64 sm:h-40 object-cover rounded" />
+                <img src={eventImg} alt="event-picture" className="w-full sm:w-80 sm:h-full aspect-video object-cover rounded" />
             </div>
-            <div className="w-full sm:w-fit grid gap-2 [&>*]:border-b">
+            <div className="w-full sm:w-fit ml-8 sm:ml-0 my-4 grid gap-2">
                 <h2 className="text-2xl text-clr-10">{eventName}</h2>
-                <p className="space-x-8"><span>data: {date}</span><span>hora: {time}</span></p>
+                <div>
+                    <p>data: {date}</p>
+                    <p>hora: {time}</p>
+                </div>
                 <p>local: {local}</p>
                 <div>
                     <p>total de convidados: {invitedQuantity}</p>

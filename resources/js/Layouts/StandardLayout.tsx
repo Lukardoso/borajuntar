@@ -20,8 +20,27 @@ export default function StandardLayout({children}: {children: ReactNode}) {
 
                 <div id="content" className="min-h-screen">{children} </div>
 
-                <div id="footer" className="flex flex-wrap justify-between gap-4 p-4 mt-8 bg-clr-30 text-counter-clr-30">
-                    <div>footer</div>
+                <div id="footer" className="min-h-72 mt-12 flex flex-col sm:flex-row justify-evenly gap-12 p-4 sm:pt-24 bg-clr-60 text-counter-clr-60 text-center sm:text-left">
+                    <div id="contact">
+                        <h2 className="uppercase font-bold">Contato:</h2>
+                        <ul>
+                            <li>Telefone: (33) 9 9978-2780</li>
+                            <li>Email: contato@wwlucas.dev</li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <h2 className="uppercase font-bold">Mais de Nosso Serviços:</h2>
+                        <ul>
+                            <li><a href="#">LuggFinder</a></li>
+                            <li><a href="#">SimpleFinance</a></li>
+                            <li><a href="#">Pokebatlle</a></li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <h1 className="text-3xl uppercase font-bold">WWLUCAS</h1>
+                    </div>
                 </div>
             </div> 
         </>
