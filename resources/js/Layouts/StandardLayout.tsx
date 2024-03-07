@@ -20,7 +20,7 @@ export default function StandardLayout({children}: {children: ReactNode}) {
 
                 <div id="content" className="min-h-screen">{children} </div>
 
-                <div id="footer" className="min-h-72 mt-12 flex flex-col sm:flex-row justify-evenly gap-12 p-4 sm:pt-24 bg-clr-60 text-counter-clr-60 text-center sm:text-left">
+                <div id="footer" className="min-h-72 mt-12 flex flex-col sm:flex-row justify-evenly gap-12 p-4 sm:pt-24 bg-gradient-to-br from-clr-60 text-counter-clr-60 text-center sm:text-left">
                     <div id="contact">
                         <h2 className="uppercase font-bold">Contato:</h2>
                         <ul>
@@ -38,8 +38,9 @@ export default function StandardLayout({children}: {children: ReactNode}) {
                         </ul>
                     </div>
 
-                    <div>
-                        <h1 className="text-3xl uppercase font-bold">WWLUCAS</h1>
+                    <div className="text-center">
+                        <h1 className="text-3xl font-bold">&lt;ww/ucas&gt;</h1>
+                        <p>desenvolvedor e analista de software</p>
                     </div>
                 </div>
             </div> 

@@ -1,6 +1,8 @@
+import { useState } from "react";
 import StandardLayout from "@/Layouts/StandardLayout";
 import Event from "@/Components/Event/Event";
 import MenuButton from "@/Components/MenuButton";
+import EditEvent from "@/Components/PopUps/EditEvent";
 
 
 export default function EventDetails() {
